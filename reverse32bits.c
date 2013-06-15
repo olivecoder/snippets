@@ -8,7 +8,7 @@
 
 int reverse(int i) {
     int output;	
-    assert sizeof(i)*8 == 32;
+    assert (sizeof(i)*8 == 32);
     __asm__(
      "nextbit:"
         "rcll $1, %%eax;"
