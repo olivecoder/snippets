@@ -1,4 +1,5 @@
 class Enum:
+
     @classmethod
     def keys(cls):
         return [key for key in dir(cls)
